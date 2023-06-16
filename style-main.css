@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.title {
+  position: relative;
+  display: block;
+  word-wrap: normal;
+  font-weight: 500;
+  z-index: 1;
+  margin-top: 20rem;
+}
+
+.mysore-class {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-bottom: 1rem;
+}
+
+.mysore-class-text h3,
+.schedule h3,
+.mantras h3,
+.prices h3,
+.loc h3,
+.contact h3,
+.about h3 {
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 45px;
+  clear: both;
+  text-align: center;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  letter-spacing: 2px;
+}
+
+.mysore-class-text,
+.about p {
+  display: flex;
+  max-width: 100%;
+  text-align: justify;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.times {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 1rem;
+  text-align: center;
+  align-items: center;
+}
+
+.schedule {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.time {
+  width: 70%;
+  border: 2px solid black;
+  text-align: center;
+  margin-bottom: 8px;
+  padding: 1rem;
+}
+
+/* .time:nth-child(2n) {
+  align-self: flex-end;
+} */
+
+.mantra-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.opening-mantra h4,
+.closing-mantra h4 {
+  text-align: left;
+  margin-left: 2rem;
+}
+
+.opening-mantra p,
+.closing-mantra p {
+  text-align: left;
+  margin-left: 1.5rem;
+}
