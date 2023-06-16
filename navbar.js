@@ -1,3 +1,5 @@
+//JavaScript for the navbar
+
 class MobileNevBar {
   constructor(mobileMenu, navList, navLinks) {
     this.mobileMenu = document.querySelector(mobileMenu);
